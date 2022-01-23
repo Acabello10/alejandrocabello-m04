@@ -1,0 +1,105 @@
+*{
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    padding: 4px;
+}
+
+footer{
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    padding: 5%;
+    clear: left;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+ul{
+    float: left;
+    list-style: none;
+}
+main{
+    clear: both;
+}
+article{
+    width: 50%;
+    float: left;
+}
+section{
+    width: 45%;
+    float: left;
+}
+nav{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+article div{
+    clear: both;
+}
+section img {
+    width: 100%;
+}
+header>img{
+    width: 100%;
+    clear: right;
+}
+li a:link, li a:visited {
+    color: black;
+    text-decoration: none;
+  }
+footer li ul a:link, footer li ul a:visited{
+    color: white;
+    text-decoration: none;
+}
+footer li ul a:hover {
+    color: #7ABA96;
+}
+li a:hover {
+    color: #7ABA96;
+}
+
+.subscripcion{
+    background-color: rgb(202, 202, 202);
+}
+.blog{
+    width: 25%;
+    margin-top: 5%;
+}
+.blog div{
+    margin-bottom: 5%;
+}
+.articulos{
+    width: 60%;
+    padding: 5%;
+}
+.articulos div{
+    display: flex;
+    justify-content: center;
+}
+.subscripcion a{
+    background-color: #7ABA96;
+}
+.subscripcion a:link, .subscripcion a:visited {
+    color: black;
+}
+.subscripcion a:hover{
+    color: rgb(68, 50, 50);
+}
+.bordes{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
